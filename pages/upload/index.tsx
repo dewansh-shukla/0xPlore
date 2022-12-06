@@ -22,7 +22,7 @@ export default function Upload() {
     await uploadVideo()
     const thumbnailCID = await uploadThumbnail()
     let data = {
-      video: "045bwx3rgfj454v4",
+      video: "b7ba9ym45c5pj827",
       title,
       description,
       location,

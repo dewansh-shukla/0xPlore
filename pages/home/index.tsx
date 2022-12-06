@@ -45,7 +45,6 @@ export default function Home() {
   return (
     <Background className='w-full'>
       <div className='w-full  flex flex-row'>
-        {/* <Sidebar updateCategory={(category) => setCategory(category)} /> */}
         <div className='flex-1  flex  flex-col'>
           <Header search={(text) => setQuery(text)} />
           <div className='flex flex-row flex-wrap'>

@@ -85,7 +85,7 @@ export default function Video() {
             </div>
             <div className='w-2/6'>
               <h4 className='text-md ml-5 mb-3 font-bold text-black dark:text-white'>
-                Related Videos
+                Recommended Videos
               </h4>
               {relatedVideos.map((video) => (
                 <Link href={`/video/${video.id}`} key={video.id}>
